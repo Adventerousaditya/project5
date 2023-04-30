@@ -1,11 +1,13 @@
 body{
     background-color: rgb(170, 170, 170);
+    margin-right: 20px;
 }
 header{
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 30px;
 }
 .logo{
     padding-left: 100px;
@@ -18,7 +20,10 @@ main{
     align-items: center;
     justify-content: center;
 }
-:left{
+.left{
     float: left;
-    width: 30%;
+    width: 40%;
+}
+pic{
+    width: 40%;
 }
